@@ -46,6 +46,14 @@ class ViewController: UIViewController,
         return true
     }
     
+    @IBAction func AboutButtonTouched(_ sender: Any) {
+    }
+    
+    @IBAction func AboutBackTouched(_ sender: UIButton) {
+        dismiss(animated: true, completion: nil)
+        //self.navigationController?.popViewController(animated: true)
+    }
+    
     @IBAction func oakunTextEditingEnd(_ sender: UITextField) {
         if sender.text != nil && Int(sender.text!) == nil {
             sender.text = nil;
