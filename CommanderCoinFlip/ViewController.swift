@@ -20,6 +20,13 @@ class ViewController: UIViewController,
         oakunPowerText.delegate = self;
         oakunToughnessText.delegate = self;
         flipNTextBox.delegate = self;
+        //Add background image for view's
+        //let coinImage = UIImage(named: "coin_edge_glass_crop")!
+        let coinImage = UIImage(named: "coin_edge_neon_crop")!
+        let imageView = UIImageView(image: coinImage)
+        imageView.frame = CGRect(x: 0, y: 0, width: view.frame.size.width, height: view.frame.size.height)
+        imageView.alpha = 0.3;
+        self.view.insertSubview(imageView, at: 0)//To set first of all views in V
     }
     
     var options = [0, 1, 2, 3];
@@ -44,8 +51,6 @@ class ViewController: UIViewController,
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         
         textField.resignFirstResponder()
-        //or
-        //self.view.endEditing(true)
         return true
     }
     
