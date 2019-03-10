@@ -18,6 +18,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coin_edge_neon_crop" translatesAutoresizingMaskIntoConstraints="NO" id="91u-mc-DCH">
+                                <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zgp-tT-8om">
                                 <rect key="frame" x="16" y="431" width="36" height="30"/>
                                 <state key="normal" title="1 Flip"/>
@@ -124,6 +127,7 @@
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="oM7-d6-88D" secondAttribute="bottom" constant="20" symbolic="YES" id="0lV-xO-4VH"/>
                             <constraint firstItem="hg8-kp-3Xm" firstAttribute="bottom" secondItem="rqe-dN-UZT" secondAttribute="bottom" id="0sh-lo-4Wl"/>
+                            <constraint firstItem="91u-mc-DCH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="16R-cs-q0z"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Zgp-tT-8om" secondAttribute="bottom" constant="19" id="3xm-Rq-Xkk"/>
                             <constraint firstItem="hS1-2O-cfo" firstAttribute="leading" secondItem="rqe-dN-UZT" secondAttribute="trailing" id="DEH-cl-PAs"/>
                             <constraint firstItem="hg8-kp-3Xm" firstAttribute="centerY" secondItem="CUp-Z3-gkB" secondAttribute="centerY" id="HWU-xO-qoY"/>
@@ -140,6 +144,8 @@
                             <constraint firstItem="oM7-d6-88D" firstAttribute="leading" secondItem="Zgp-tT-8om" secondAttribute="trailing" constant="35" id="RZW-Fh-QnC"/>
                             <constraint firstItem="hS1-2O-cfo" firstAttribute="baseline" secondItem="CUp-Z3-gkB" secondAttribute="baseline" id="WpC-ch-Mbq"/>
                             <constraint firstItem="875-Kv-sSe" firstAttribute="leading" secondItem="X6j-n3-7vk" secondAttribute="trailing" constant="8" symbolic="YES" id="X1U-sC-0z7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="91u-mc-DCH" secondAttribute="bottom" id="Xge-1R-fOu"/>
+                            <constraint firstItem="91u-mc-DCH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="aDz-Ed-6C1"/>
                             <constraint firstItem="hg8-kp-3Xm" firstAttribute="top" secondItem="X6j-n3-7vk" secondAttribute="bottom" constant="2" id="aP1-hh-Lg3"/>
                             <constraint firstItem="X6j-n3-7vk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="es4-0i-JYd"/>
                             <constraint firstItem="QkN-1W-9hL" firstAttribute="leading" secondItem="875-Kv-sSe" secondAttribute="trailing" constant="47" id="h2o-LH-ge6"/>
@@ -148,6 +154,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="875-Kv-sSe" secondAttribute="trailing" constant="141" id="ktr-us-swK"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xKK-xx-vaO" secondAttribute="trailing" constant="16" id="n8T-oB-aQc"/>
                             <constraint firstItem="xKK-xx-vaO" firstAttribute="top" secondItem="hg8-kp-3Xm" secondAttribute="bottom" constant="26" id="o1D-DE-cK7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="91u-mc-DCH" secondAttribute="trailing" id="of8-NT-bjk"/>
                             <constraint firstItem="rqe-dN-UZT" firstAttribute="leading" secondItem="CUp-Z3-gkB" secondAttribute="trailing" constant="1" id="p4f-WN-jgj"/>
                             <constraint firstItem="875-Kv-sSe" firstAttribute="centerY" secondItem="X6j-n3-7vk" secondAttribute="centerY" id="pmT-oe-wZD"/>
                             <constraint firstItem="xKK-xx-vaO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="rhL-OU-Ff2"/>
@@ -172,4 +179,7 @@
             <point key="canvasLocation" x="52.5" y="26.25"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="coin_edge_neon_crop" width="465" height="697"/>
+    </resources>
 </document>
