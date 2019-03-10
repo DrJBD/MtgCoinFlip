@@ -32,6 +32,7 @@ class ViewController: UIViewController,
     var oakunToughnessFinal = 3;
     var flipDelay = 250;
     var flipping = "--===>          <===--";
+    var keyboardSlide: CGFloat = 200;
     
     @IBOutlet weak var flipResultLabel: UILabel!
     @IBOutlet weak var krarkPicker: UIPickerView!
@@ -40,6 +41,11 @@ class ViewController: UIViewController,
     @IBOutlet weak var oakunPowerText: UITextField!
     @IBOutlet weak var oakunToughnessText: UITextField!
     @IBOutlet weak var oakunResultLabel: UILabel!
+    
+    
+    @IBAction func FlipNEditBegin(_ sender: Any) {
+        self.view.frame.origin.y -= keyboardSlide;
+    }
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         textField.resignFirstResponder()
@@ -89,6 +95,8 @@ class ViewController: UIViewController,
     }
     
     @IBAction func flipNTextBoxDone(_ sender: Any) {
+        self.view.frame.origin.y += keyboardSlide;
+        
         if flipNTextBox.text == nil || Int(flipNTextBox.text!) == nil {
             flipNTextBox.text = "";
         }
