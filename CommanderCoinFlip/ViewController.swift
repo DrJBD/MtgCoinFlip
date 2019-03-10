@@ -8,13 +8,18 @@
 
 import UIKit
 
-class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
+class ViewController: UIViewController,
+    UIPickerViewDelegate, UIPickerViewDataSource,
+    UITextFieldDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         krarkPicker.delegate = self;
         krarkPicker.dataSource = self;
+        oakunPowerText.delegate = self;
+        oakunToughnessText.delegate = self;
+        flipNTextBox.delegate = self;
     }
     
     var options = [0, 1, 2, 3];
@@ -35,6 +40,14 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     @IBOutlet weak var oakunPowerText: UITextField!
     @IBOutlet weak var oakunToughnessText: UITextField!
     @IBOutlet weak var oakunResultLabel: UILabel!
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        
+        textField.resignFirstResponder()
+        //or
+        //self.view.endEditing(true)
+        return true
+    }
     
     @IBAction func oakunTextEditingEnd(_ sender: UITextField) {
         if sender.text != nil && Int(sender.text!) == nil {
