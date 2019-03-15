@@ -1,15 +1,15 @@
 //
-//  CommanderCoinFlipTests.swift
-//  CommanderCoinFlipTests
+//  CoinFlipTests.swift
+//  CoinFlipTests
 //
 //  Created by Judah De Paula on 3/8/19.
 //  Copyright © 2019 Judah De Paula. All rights reserved.
 //
 
 import XCTest
-@testable import CommanderCoinFlip
+@testable import CoinFlip
 
-class CommanderCoinFlipTests: XCTestCase {
+class CoinFlipTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.

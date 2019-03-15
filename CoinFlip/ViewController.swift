@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  CommanderCoinFlip
+//  CoinFlip
 //
 //  Created by Judah De Paula on 3/8/19.
 //  Copyright © 2019 Judah De Paula. All rights reserved.

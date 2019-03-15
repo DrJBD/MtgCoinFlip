@@ -10,11 +10,11 @@
 		F71553BA2233772E005B61C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71553B92233772E005B61C8 /* AppDelegate.swift */; };
 		F71553BC2233772E005B61C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71553BB2233772E005B61C8 /* ViewController.swift */; };
 		F71553BF2233772E005B61C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F71553BD2233772E005B61C8 /* Main.storyboard */; };
-		F71553C22233772E005B61C8 /* CommanderCoinFlip.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F71553C02233772E005B61C8 /* CommanderCoinFlip.xcdatamodeld */; };
+		F71553C22233772E005B61C8 /* CoinFlip.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F71553C02233772E005B61C8 /* CoinFlip.xcdatamodeld */; };
 		F71553C422337730005B61C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F71553C322337730005B61C8 /* Assets.xcassets */; };
 		F71553C722337730005B61C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F71553C522337730005B61C8 /* LaunchScreen.storyboard */; };
-		F71553D222337730005B61C8 /* CommanderCoinFlipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71553D122337730005B61C8 /* CommanderCoinFlipTests.swift */; };
-		F71553DD22337730005B61C8 /* CommanderCoinFlipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71553DC22337730005B61C8 /* CommanderCoinFlipUITests.swift */; };
+		F71553D222337730005B61C8 /* CoinFlipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71553D122337730005B61C8 /* CoinFlipTests.swift */; };
+		F71553DD22337730005B61C8 /* CoinFlipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71553DC22337730005B61C8 /* CoinFlipUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F71553B62233772E005B61C8 /* CommanderCoinFlip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CommanderCoinFlip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F71553B62233772E005B61C8 /* MagicCoinFlip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicCoinFlip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F71553B92233772E005B61C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F71553BB2233772E005B61C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F71553BE2233772E005B61C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -43,11 +43,11 @@
 		F71553C322337730005B61C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F71553C622337730005B61C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F71553C822337730005B61C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F71553CD22337730005B61C8 /* CommanderCoinFlipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommanderCoinFlipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F71553D122337730005B61C8 /* CommanderCoinFlipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommanderCoinFlipTests.swift; sourceTree = "<group>"; };
+		F71553CD22337730005B61C8 /* MagicCoinFlipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicCoinFlipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F71553D122337730005B61C8 /* CoinFlipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinFlipTests.swift; sourceTree = "<group>"; };
 		F71553D322337730005B61C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F71553D822337730005B61C8 /* CommanderCoinFlipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommanderCoinFlipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F71553DC22337730005B61C8 /* CommanderCoinFlipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommanderCoinFlipUITests.swift; sourceTree = "<group>"; };
+		F71553D822337730005B61C8 /* MagicCoinFlipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicCoinFlipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F71553DC22337730005B61C8 /* CoinFlipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinFlipUITests.swift; sourceTree = "<group>"; };
 		F71553DE22337730005B61C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,9 +79,9 @@
 		F71553AD2233772E005B61C8 = {
 			isa = PBXGroup;
 			children = (
-				F71553B82233772E005B61C8 /* CommanderCoinFlip */,
-				F71553D022337730005B61C8 /* CommanderCoinFlipTests */,
-				F71553DB22337730005B61C8 /* CommanderCoinFlipUITests */,
+				F71553B82233772E005B61C8 /* CoinFlip */,
+				F71553D022337730005B61C8 /* CoinFlipTests */,
+				F71553DB22337730005B61C8 /* CoinFlipUITests */,
 				F71553B72233772E005B61C8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,14 +89,14 @@
 		F71553B72233772E005B61C8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F71553B62233772E005B61C8 /* CommanderCoinFlip.app */,
-				F71553CD22337730005B61C8 /* CommanderCoinFlipTests.xctest */,
-				F71553D822337730005B61C8 /* CommanderCoinFlipUITests.xctest */,
+				F71553B62233772E005B61C8 /* MagicCoinFlip.app */,
+				F71553CD22337730005B61C8 /* MagicCoinFlipTests.xctest */,
+				F71553D822337730005B61C8 /* MagicCoinFlipUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F71553B82233772E005B61C8 /* CommanderCoinFlip */ = {
+		F71553B82233772E005B61C8 /* CoinFlip */ = {
 			isa = PBXGroup;
 			children = (
 				F71553B92233772E005B61C8 /* AppDelegate.swift */,
@@ -105,35 +105,35 @@
 				F71553C322337730005B61C8 /* Assets.xcassets */,
 				F71553C522337730005B61C8 /* LaunchScreen.storyboard */,
 				F71553C822337730005B61C8 /* Info.plist */,
-				F71553C02233772E005B61C8 /* CommanderCoinFlip.xcdatamodeld */,
+				F71553C02233772E005B61C8 /* CoinFlip.xcdatamodeld */,
 			);
-			path = CommanderCoinFlip;
+			path = CoinFlip;
 			sourceTree = "<group>";
 		};
-		F71553D022337730005B61C8 /* CommanderCoinFlipTests */ = {
+		F71553D022337730005B61C8 /* CoinFlipTests */ = {
 			isa = PBXGroup;
 			children = (
-				F71553D122337730005B61C8 /* CommanderCoinFlipTests.swift */,
+				F71553D122337730005B61C8 /* CoinFlipTests.swift */,
 				F71553D322337730005B61C8 /* Info.plist */,
 			);
-			path = CommanderCoinFlipTests;
+			path = CoinFlipTests;
 			sourceTree = "<group>";
 		};
-		F71553DB22337730005B61C8 /* CommanderCoinFlipUITests */ = {
+		F71553DB22337730005B61C8 /* CoinFlipUITests */ = {
 			isa = PBXGroup;
 			children = (
-				F71553DC22337730005B61C8 /* CommanderCoinFlipUITests.swift */,
+				F71553DC22337730005B61C8 /* CoinFlipUITests.swift */,
 				F71553DE22337730005B61C8 /* Info.plist */,
 			);
-			path = CommanderCoinFlipUITests;
+			path = CoinFlipUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F71553B52233772E005B61C8 /* CommanderCoinFlip */ = {
+		F71553B52233772E005B61C8 /* MagicCoinFlip */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F71553E122337730005B61C8 /* Build configuration list for PBXNativeTarget "CommanderCoinFlip" */;
+			buildConfigurationList = F71553E122337730005B61C8 /* Build configuration list for PBXNativeTarget "MagicCoinFlip" */;
 			buildPhases = (
 				F71553B22233772E005B61C8 /* Sources */,
 				F71553B32233772E005B61C8 /* Frameworks */,
@@ -143,14 +143,14 @@
 			);
 			dependencies = (
 			);
-			name = CommanderCoinFlip;
+			name = MagicCoinFlip;
 			productName = CommanderCoinFlip;
-			productReference = F71553B62233772E005B61C8 /* CommanderCoinFlip.app */;
+			productReference = F71553B62233772E005B61C8 /* MagicCoinFlip.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F71553CC22337730005B61C8 /* CommanderCoinFlipTests */ = {
+		F71553CC22337730005B61C8 /* MagicCoinFlipTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F71553E422337730005B61C8 /* Build configuration list for PBXNativeTarget "CommanderCoinFlipTests" */;
+			buildConfigurationList = F71553E422337730005B61C8 /* Build configuration list for PBXNativeTarget "MagicCoinFlipTests" */;
 			buildPhases = (
 				F71553C922337730005B61C8 /* Sources */,
 				F71553CA22337730005B61C8 /* Frameworks */,
@@ -161,14 +161,14 @@
 			dependencies = (
 				F71553CF22337730005B61C8 /* PBXTargetDependency */,
 			);
-			name = CommanderCoinFlipTests;
+			name = MagicCoinFlipTests;
 			productName = CommanderCoinFlipTests;
-			productReference = F71553CD22337730005B61C8 /* CommanderCoinFlipTests.xctest */;
+			productReference = F71553CD22337730005B61C8 /* MagicCoinFlipTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F71553D722337730005B61C8 /* CommanderCoinFlipUITests */ = {
+		F71553D722337730005B61C8 /* MagicCoinFlipUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F71553E722337730005B61C8 /* Build configuration list for PBXNativeTarget "CommanderCoinFlipUITests" */;
+			buildConfigurationList = F71553E722337730005B61C8 /* Build configuration list for PBXNativeTarget "MagicCoinFlipUITests" */;
 			buildPhases = (
 				F71553D422337730005B61C8 /* Sources */,
 				F71553D522337730005B61C8 /* Frameworks */,
@@ -179,9 +179,9 @@
 			dependencies = (
 				F71553DA22337730005B61C8 /* PBXTargetDependency */,
 			);
-			name = CommanderCoinFlipUITests;
+			name = MagicCoinFlipUITests;
 			productName = CommanderCoinFlipUITests;
-			productReference = F71553D822337730005B61C8 /* CommanderCoinFlipUITests.xctest */;
+			productReference = F71553D822337730005B61C8 /* MagicCoinFlipUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +207,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F71553B12233772E005B61C8 /* Build configuration list for PBXProject "CommanderCoinFlip" */;
+			buildConfigurationList = F71553B12233772E005B61C8 /* Build configuration list for PBXProject "MagicCoinFlip" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -220,9 +220,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F71553B52233772E005B61C8 /* CommanderCoinFlip */,
-				F71553CC22337730005B61C8 /* CommanderCoinFlipTests */,
-				F71553D722337730005B61C8 /* CommanderCoinFlipUITests */,
+				F71553B52233772E005B61C8 /* MagicCoinFlip */,
+				F71553CC22337730005B61C8 /* MagicCoinFlipTests */,
+				F71553D722337730005B61C8 /* MagicCoinFlipUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -259,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F71553C22233772E005B61C8 /* CommanderCoinFlip.xcdatamodeld in Sources */,
+				F71553C22233772E005B61C8 /* CoinFlip.xcdatamodeld in Sources */,
 				F71553BC2233772E005B61C8 /* ViewController.swift in Sources */,
 				F71553BA2233772E005B61C8 /* AppDelegate.swift in Sources */,
 			);
@@ -269,7 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F71553D222337730005B61C8 /* CommanderCoinFlipTests.swift in Sources */,
+				F71553D222337730005B61C8 /* CoinFlipTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F71553DD22337730005B61C8 /* CommanderCoinFlipUITests.swift in Sources */,
+				F71553DD22337730005B61C8 /* CoinFlipUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,12 +286,12 @@
 /* Begin PBXTargetDependency section */
 		F71553CF22337730005B61C8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F71553B52233772E005B61C8 /* CommanderCoinFlip */;
+			target = F71553B52233772E005B61C8 /* MagicCoinFlip */;
 			targetProxy = F71553CE22337730005B61C8 /* PBXContainerItemProxy */;
 		};
 		F71553DA22337730005B61C8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F71553B52233772E005B61C8 /* CommanderCoinFlip */;
+			target = F71553B52233772E005B61C8 /* MagicCoinFlip */;
 			targetProxy = F71553D922337730005B61C8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -367,7 +367,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -422,7 +422,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -438,13 +438,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XMGJ3BG66V;
-				INFOPLIST_FILE = CommanderCoinFlip/Info.plist;
+				INFOPLIST_FILE = CoinFlip/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Judah-De-Paula.CommanderCoinFlip";
+				PRODUCT_BUNDLE_IDENTIFIER = "Judah-De-Paula.CoinFlip";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -457,13 +457,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XMGJ3BG66V;
-				INFOPLIST_FILE = CommanderCoinFlip/Info.plist;
+				INFOPLIST_FILE = CoinFlip/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Judah-De-Paula.CommanderCoinFlip";
+				PRODUCT_BUNDLE_IDENTIFIER = "Judah-De-Paula.CoinFlip";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -477,17 +477,17 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XMGJ3BG66V;
-				INFOPLIST_FILE = CommanderCoinFlipTests/Info.plist;
+				INFOPLIST_FILE = CoinFlipTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Judah-De-Paula.CommanderCoinFlipTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "Judah-De-Paula.CoinFlipTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CommanderCoinFlip.app/CommanderCoinFlip";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagicCoinFlip.app/MagicCoinFlip";
 			};
 			name = Debug;
 		};
@@ -498,17 +498,17 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XMGJ3BG66V;
-				INFOPLIST_FILE = CommanderCoinFlipTests/Info.plist;
+				INFOPLIST_FILE = CoinFlipTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Judah-De-Paula.CommanderCoinFlipTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "Judah-De-Paula.CoinFlipTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CommanderCoinFlip.app/CommanderCoinFlip";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagicCoinFlip.app/MagicCoinFlip";
 			};
 			name = Release;
 		};
@@ -518,17 +518,17 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XMGJ3BG66V;
-				INFOPLIST_FILE = CommanderCoinFlipUITests/Info.plist;
+				INFOPLIST_FILE = CoinFlipUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Judah-De-Paula.CommanderCoinFlipUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "Judah-De-Paula.CoinFlipUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CommanderCoinFlip;
+				TEST_TARGET_NAME = CoinFlip;
 			};
 			name = Debug;
 		};
@@ -538,24 +538,24 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XMGJ3BG66V;
-				INFOPLIST_FILE = CommanderCoinFlipUITests/Info.plist;
+				INFOPLIST_FILE = CoinFlipUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Judah-De-Paula.CommanderCoinFlipUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "Judah-De-Paula.CoinFlipUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CommanderCoinFlip;
+				TEST_TARGET_NAME = CoinFlip;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F71553B12233772E005B61C8 /* Build configuration list for PBXProject "CommanderCoinFlip" */ = {
+		F71553B12233772E005B61C8 /* Build configuration list for PBXProject "MagicCoinFlip" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F71553DF22337730005B61C8 /* Debug */,
@@ -564,7 +564,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F71553E122337730005B61C8 /* Build configuration list for PBXNativeTarget "CommanderCoinFlip" */ = {
+		F71553E122337730005B61C8 /* Build configuration list for PBXNativeTarget "MagicCoinFlip" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F71553E222337730005B61C8 /* Debug */,
@@ -573,7 +573,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F71553E422337730005B61C8 /* Build configuration list for PBXNativeTarget "CommanderCoinFlipTests" */ = {
+		F71553E422337730005B61C8 /* Build configuration list for PBXNativeTarget "MagicCoinFlipTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F71553E522337730005B61C8 /* Debug */,
@@ -582,7 +582,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F71553E722337730005B61C8 /* Build configuration list for PBXNativeTarget "CommanderCoinFlipUITests" */ = {
+		F71553E722337730005B61C8 /* Build configuration list for PBXNativeTarget "MagicCoinFlipUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F71553E822337730005B61C8 /* Debug */,
@@ -594,13 +594,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		F71553C02233772E005B61C8 /* CommanderCoinFlip.xcdatamodeld */ = {
+		F71553C02233772E005B61C8 /* CoinFlip.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				F71553C12233772E005B61C8 /* CommanderCoinFlip.xcdatamodel */,
 			);
 			currentVersion = F71553C12233772E005B61C8 /* CommanderCoinFlip.xcdatamodel */;
-			path = CommanderCoinFlip.xcdatamodeld;
+			path = CoinFlip.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_0" orientation="portrait">
+    <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -13,16 +13,16 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CommanderCoinFlip" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MagicCoinFlip" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coin_edge_neon_crop" translatesAutoresizingMaskIntoConstraints="NO" id="91u-mc-DCH">
-                                <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zgp-tT-8om">
-                                <rect key="frame" x="16" y="458" width="90" height="90"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zgp-tT-8om">
+                                <rect key="frame" x="16" y="557" width="90" height="90"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="90" id="eVg-pi-kIq"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="90" id="ye9-nZ-buV"/>
@@ -33,8 +33,8 @@
                                     <action selector="flipClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uHK-zg-8Ff"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k4H-Kb-m3l">
-                                <rect key="frame" x="214" y="458" width="90" height="90"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k4H-Kb-m3l">
+                                <rect key="frame" x="214" y="557" width="90" height="90"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="90" id="LpK-Sg-yaS"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="90" id="vs4-pX-daS"/>
@@ -45,8 +45,8 @@
                                     <action selector="flipUntilLossClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KEG-9K-UAm"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3Ob-xa-zAf">
-                                <rect key="frame" x="115" y="458" width="90" height="90"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3Ob-xa-zAf">
+                                <rect key="frame" x="115" y="557" width="90" height="90"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="90" id="0ev-n0-pFB"/>
                                     <constraint firstAttribute="height" constant="90" id="BZ4-u3-InB"/>
@@ -66,8 +66,8 @@
                                     <action selector="flipNClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Uid-VQ-xxg"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="0" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oM7-d6-88D">
-                                <rect key="frame" x="135" y="469" width="50" height="30"/>
+                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="0" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oM7-d6-88D">
+                                <rect key="frame" x="135" y="568" width="50" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="43f-Lc-hjS"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="TsE-e3-t59"/>
@@ -80,7 +80,7 @@
                                     <action selector="flipNTextBoxDone:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="8vA-8h-H3k"/>
                                 </connections>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QkN-1W-9hL">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QkN-1W-9hL">
                                 <rect key="frame" x="16" y="21" width="74" height="33"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="New Turn"/>
@@ -88,7 +88,7 @@
                                     <action selector="clearClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iit-aB-bcs"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IXR-h6-9RB">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IXR-h6-9RB">
                                 <rect key="frame" x="257" y="20" width="47" height="33"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="About"/>
@@ -98,20 +98,20 @@
                                 </connections>
                             </button>
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X6j-n3-7vk">
-                                <rect key="frame" x="148" y="69" width="22" height="85"/>
+                                <rect key="frame" x="203" y="69" width="22" height="85"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="85" id="71M-9j-L4X"/>
                                     <constraint firstAttribute="width" constant="22" id="h8D-q8-tze"/>
                                 </constraints>
                             </pickerView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Krark's Thumbs" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="875-Kv-sSe">
-                                <rect key="frame" x="183.5" y="101" width="120.5" height="21"/>
+                                <rect key="frame" x="238.5" y="101" width="120.5" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Oakun, Eye of Chaos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hS1-2O-cfo">
-                                <rect key="frame" x="93" y="166" width="211" height="21"/>
+                                <rect key="frame" x="148" y="166" width="211" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="211" id="xXD-xO-ycb"/>
                                 </constraints>
@@ -119,7 +119,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="/" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CUp-Z3-gkB">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="/" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CUp-Z3-gkB">
                                 <rect key="frame" x="47" y="166" width="6" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="6" id="ENI-0n-pXJ"/>
@@ -128,7 +128,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="3" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hg8-kp-3Xm">
+                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="3" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hg8-kp-3Xm">
                                 <rect key="frame" x="16" y="162" width="30" height="29"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="29" id="MRk-QT-Wn7"/>
@@ -141,7 +141,7 @@
                                     <action selector="oakunTextEditingEnd:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="acc-Ux-RY3"/>
                                 </connections>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="3" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rqe-dN-UZT">
+                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="3" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rqe-dN-UZT">
                                 <rect key="frame" x="54" y="162" width="31" height="29"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="29" id="hzx-bY-sdk"/>
@@ -155,7 +155,7 @@
                                 </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ready" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xKK-xx-vaO">
-                                <rect key="frame" x="16" y="199" width="288" height="32"/>
+                                <rect key="frame" x="16" y="199" width="343" height="32"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -229,20 +229,20 @@
             <objects>
                 <viewController id="p18-dq-Im3" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="U86-Ja-fGn">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g4j-kX-lVO">
-                                <rect key="frame" x="143" y="518" width="34" height="30"/>
+                                <rect key="frame" x="143" y="617" width="89" height="30"/>
                                 <state key="normal" title="Back"/>
                                 <connections>
                                     <action selector="AboutBackTouched:" destination="PMz-hi-H3j" eventType="touchUpInside" id="JvX-ut-zI1"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Y0A-pk-TF9">
-                                <rect key="frame" x="16" y="20" width="288" height="490"/>
+                                <rect key="frame" x="16" y="20" width="343" height="589"/>
                                 <color key="backgroundColor" red="0.79619157314300537" green="0.77906674146652222" blue="0.84938877820968628" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <string key="text"> Commander Coin Flipper by Judah De Paula, PhD  This is a free app made with love.   If you like it please let me know with an App Store review.  Source available on GitHub as MtgCoinFlip.</string>
+                                <string key="text"> Magic Coin Flipper by Judah De Paula, PhD  This is a free app made with love.   If you like it please let me know with an App Store review.  Source available on GitHub as MtgCoinFlip.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
