@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F71553B52233772E005B61C8"
-               BuildableName = "MagicCoinFlip.app"
-               BlueprintName = "MagicCoinFlip"
-               ReferencedContainer = "container:MagicCoinFlip.xcodeproj">
+               BuildableName = "MagicalCoinFlip.app"
+               BlueprintName = "MagicalCoinFlip"
+               ReferencedContainer = "container:MagicalCoinFlip.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F71553CC22337730005B61C8"
-               BuildableName = "MagicCoinFlipTests.xctest"
-               BlueprintName = "MagicCoinFlipTests"
-               ReferencedContainer = "container:MagicCoinFlip.xcodeproj">
+               BuildableName = "MagicalCoinFlipTests.xctest"
+               BlueprintName = "MagicalCoinFlipTests"
+               ReferencedContainer = "container:MagicalCoinFlip.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F71553D722337730005B61C8"
-               BuildableName = "MagicCoinFlipUITests.xctest"
-               BlueprintName = "MagicCoinFlipUITests"
-               ReferencedContainer = "container:MagicCoinFlip.xcodeproj">
+               BuildableName = "MagicalCoinFlipUITests.xctest"
+               BlueprintName = "MagicalCoinFlipUITests"
+               ReferencedContainer = "container:MagicalCoinFlip.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F71553B52233772E005B61C8"
-            BuildableName = "MagicCoinFlip.app"
-            BlueprintName = "MagicCoinFlip"
-            ReferencedContainer = "container:MagicCoinFlip.xcodeproj">
+            BuildableName = "MagicalCoinFlip.app"
+            BlueprintName = "MagicalCoinFlip"
+            ReferencedContainer = "container:MagicalCoinFlip.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F71553B52233772E005B61C8"
-            BuildableName = "MagicCoinFlip.app"
-            BlueprintName = "MagicCoinFlip"
-            ReferencedContainer = "container:MagicCoinFlip.xcodeproj">
+            BuildableName = "MagicalCoinFlip.app"
+            BlueprintName = "MagicalCoinFlip"
+            ReferencedContainer = "container:MagicalCoinFlip.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F71553B52233772E005B61C8"
-            BuildableName = "MagicCoinFlip.app"
-            BlueprintName = "MagicCoinFlip"
-            ReferencedContainer = "container:MagicCoinFlip.xcodeproj">
+            BuildableName = "MagicalCoinFlip.app"
+            BlueprintName = "MagicalCoinFlip"
+            ReferencedContainer = "container:MagicalCoinFlip.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

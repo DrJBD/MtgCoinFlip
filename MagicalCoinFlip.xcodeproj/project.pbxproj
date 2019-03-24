@@ -35,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F71553B62233772E005B61C8 /* MagicCoinFlip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicCoinFlip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F71553B62233772E005B61C8 /* MagicalCoinFlip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicalCoinFlip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F71553B92233772E005B61C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F71553BB2233772E005B61C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F71553BE2233772E005B61C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -43,10 +43,10 @@
 		F71553C322337730005B61C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F71553C622337730005B61C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F71553C822337730005B61C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F71553CD22337730005B61C8 /* MagicCoinFlipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicCoinFlipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F71553CD22337730005B61C8 /* MagicalCoinFlipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicalCoinFlipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F71553D122337730005B61C8 /* CoinFlipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinFlipTests.swift; sourceTree = "<group>"; };
 		F71553D322337730005B61C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F71553D822337730005B61C8 /* MagicCoinFlipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicCoinFlipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F71553D822337730005B61C8 /* MagicalCoinFlipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicalCoinFlipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F71553DC22337730005B61C8 /* CoinFlipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinFlipUITests.swift; sourceTree = "<group>"; };
 		F71553DE22337730005B61C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,9 +89,9 @@
 		F71553B72233772E005B61C8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F71553B62233772E005B61C8 /* MagicCoinFlip.app */,
-				F71553CD22337730005B61C8 /* MagicCoinFlipTests.xctest */,
-				F71553D822337730005B61C8 /* MagicCoinFlipUITests.xctest */,
+				F71553B62233772E005B61C8 /* MagicalCoinFlip.app */,
+				F71553CD22337730005B61C8 /* MagicalCoinFlipTests.xctest */,
+				F71553D822337730005B61C8 /* MagicalCoinFlipUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -131,9 +131,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F71553B52233772E005B61C8 /* MagicCoinFlip */ = {
+		F71553B52233772E005B61C8 /* MagicalCoinFlip */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F71553E122337730005B61C8 /* Build configuration list for PBXNativeTarget "MagicCoinFlip" */;
+			buildConfigurationList = F71553E122337730005B61C8 /* Build configuration list for PBXNativeTarget "MagicalCoinFlip" */;
 			buildPhases = (
 				F71553B22233772E005B61C8 /* Sources */,
 				F71553B32233772E005B61C8 /* Frameworks */,
@@ -143,14 +143,14 @@
 			);
 			dependencies = (
 			);
-			name = MagicCoinFlip;
+			name = MagicalCoinFlip;
 			productName = CommanderCoinFlip;
-			productReference = F71553B62233772E005B61C8 /* MagicCoinFlip.app */;
+			productReference = F71553B62233772E005B61C8 /* MagicalCoinFlip.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F71553CC22337730005B61C8 /* MagicCoinFlipTests */ = {
+		F71553CC22337730005B61C8 /* MagicalCoinFlipTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F71553E422337730005B61C8 /* Build configuration list for PBXNativeTarget "MagicCoinFlipTests" */;
+			buildConfigurationList = F71553E422337730005B61C8 /* Build configuration list for PBXNativeTarget "MagicalCoinFlipTests" */;
 			buildPhases = (
 				F71553C922337730005B61C8 /* Sources */,
 				F71553CA22337730005B61C8 /* Frameworks */,
@@ -161,14 +161,14 @@
 			dependencies = (
 				F71553CF22337730005B61C8 /* PBXTargetDependency */,
 			);
-			name = MagicCoinFlipTests;
+			name = MagicalCoinFlipTests;
 			productName = CommanderCoinFlipTests;
-			productReference = F71553CD22337730005B61C8 /* MagicCoinFlipTests.xctest */;
+			productReference = F71553CD22337730005B61C8 /* MagicalCoinFlipTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F71553D722337730005B61C8 /* MagicCoinFlipUITests */ = {
+		F71553D722337730005B61C8 /* MagicalCoinFlipUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F71553E722337730005B61C8 /* Build configuration list for PBXNativeTarget "MagicCoinFlipUITests" */;
+			buildConfigurationList = F71553E722337730005B61C8 /* Build configuration list for PBXNativeTarget "MagicalCoinFlipUITests" */;
 			buildPhases = (
 				F71553D422337730005B61C8 /* Sources */,
 				F71553D522337730005B61C8 /* Frameworks */,
@@ -179,9 +179,9 @@
 			dependencies = (
 				F71553DA22337730005B61C8 /* PBXTargetDependency */,
 			);
-			name = MagicCoinFlipUITests;
+			name = MagicalCoinFlipUITests;
 			productName = CommanderCoinFlipUITests;
-			productReference = F71553D822337730005B61C8 /* MagicCoinFlipUITests.xctest */;
+			productReference = F71553D822337730005B61C8 /* MagicalCoinFlipUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +207,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F71553B12233772E005B61C8 /* Build configuration list for PBXProject "MagicCoinFlip" */;
+			buildConfigurationList = F71553B12233772E005B61C8 /* Build configuration list for PBXProject "MagicalCoinFlip" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -220,9 +220,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F71553B52233772E005B61C8 /* MagicCoinFlip */,
-				F71553CC22337730005B61C8 /* MagicCoinFlipTests */,
-				F71553D722337730005B61C8 /* MagicCoinFlipUITests */,
+				F71553B52233772E005B61C8 /* MagicalCoinFlip */,
+				F71553CC22337730005B61C8 /* MagicalCoinFlipTests */,
+				F71553D722337730005B61C8 /* MagicalCoinFlipUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -286,12 +286,12 @@
 /* Begin PBXTargetDependency section */
 		F71553CF22337730005B61C8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F71553B52233772E005B61C8 /* MagicCoinFlip */;
+			target = F71553B52233772E005B61C8 /* MagicalCoinFlip */;
 			targetProxy = F71553CE22337730005B61C8 /* PBXContainerItemProxy */;
 		};
 		F71553DA22337730005B61C8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F71553B52233772E005B61C8 /* MagicCoinFlip */;
+			target = F71553B52233772E005B61C8 /* MagicalCoinFlip */;
 			targetProxy = F71553D922337730005B61C8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -444,7 +444,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Judah-De-Paula.CoinFlip";
+				PRODUCT_BUNDLE_IDENTIFIER = "Judah-De-Paula.CommanderCoinFlip";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -463,7 +463,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Judah-De-Paula.CoinFlip";
+				PRODUCT_BUNDLE_IDENTIFIER = "Judah-De-Paula.CommanderCoinFlip";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -487,7 +487,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagicCoinFlip.app/MagicCoinFlip";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagicalCoinFlip.app/MagicalCoinFlip";
 			};
 			name = Debug;
 		};
@@ -508,7 +508,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagicCoinFlip.app/MagicCoinFlip";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagicalCoinFlip.app/MagicalCoinFlip";
 			};
 			name = Release;
 		};
@@ -555,7 +555,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F71553B12233772E005B61C8 /* Build configuration list for PBXProject "MagicCoinFlip" */ = {
+		F71553B12233772E005B61C8 /* Build configuration list for PBXProject "MagicalCoinFlip" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F71553DF22337730005B61C8 /* Debug */,
@@ -564,7 +564,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F71553E122337730005B61C8 /* Build configuration list for PBXNativeTarget "MagicCoinFlip" */ = {
+		F71553E122337730005B61C8 /* Build configuration list for PBXNativeTarget "MagicalCoinFlip" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F71553E222337730005B61C8 /* Debug */,
@@ -573,7 +573,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F71553E422337730005B61C8 /* Build configuration list for PBXNativeTarget "MagicCoinFlipTests" */ = {
+		F71553E422337730005B61C8 /* Build configuration list for PBXNativeTarget "MagicalCoinFlipTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F71553E522337730005B61C8 /* Debug */,
@@ -582,7 +582,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F71553E722337730005B61C8 /* Build configuration list for PBXNativeTarget "MagicCoinFlipUITests" */ = {
+		F71553E722337730005B61C8 /* Build configuration list for PBXNativeTarget "MagicalCoinFlipUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F71553E822337730005B61C8 /* Debug */,

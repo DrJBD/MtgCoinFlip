@@ -22,7 +22,7 @@ class ViewController: UIViewController,
         flipNTextBox.delegate = self;
     }
     
-    var options = [0, 1, 2, 3];
+    var options = [0, 1, 2, 3, 4, 5, 6];
     var winColor = UIColor.purple;
     var loseColor = UIColor.red;
     var infoColor = UIColor.black;
